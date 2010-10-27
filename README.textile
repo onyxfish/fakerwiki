@@ -1,6 +1,6 @@
 h1. FakerWiki
 
-Fakerwiki is a library for locally testing Python
+Fakerwiki is a library for local testing of Python
 ScraperWiki:"http://http://scraperwiki.com/" scripts.  Mostly
 it's just a copy of the ScraperWiki library with the database bits removed.
 
@@ -10,6 +10,7 @@ cd fakerwiki
 mkvirtualenv --no-site-packages fakerwiki
 pip install -r requirements.txt
 python setup.py install
+python your_script_name.py
 
 h2. What works?
 
