@@ -4,11 +4,17 @@ Fakerwiki is a library for local testing of Python "ScraperWiki":http://http://s
 
 h2. Usage
 
+<pre>
 cd fakerwiki
 mkvirtualenv --no-site-packages fakerwiki
 pip install -r requirements.txt
 python setup.py install
 python your_script_name.py
+</pre>
+
+You can also use 'pip install fakerwiki', but this obviously won't build
+out your virtualenv with the standard scraperwiki packages from the
+requirements.txt in the repository.
 
 h2. What works?
 
