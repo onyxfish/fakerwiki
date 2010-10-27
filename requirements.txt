@@ -1,0 +1,5 @@
+# Standard scraperwiki modules
+BeautifulSoup
+Mechanize
+python-dateutil
+lxml

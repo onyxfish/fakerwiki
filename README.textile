@@ -1,0 +1,31 @@
+h1. FakerWiki
+
+Fakerwiki is a library for locally testing Python
+ScraperWiki:"http://http://scraperwiki.com/" scripts.  Mostly
+it's just a copy of the ScraperWiki library with the database bits removed.
+
+h2. Usage
+
+cd fakerwiki
+mkvirtualenv --no-site-packages fakerwiki
+pip install -r requirements.txt
+python setup.py install
+
+h2. What works?
+
+scraperwiki.scrape()
+scraperwiki.datastore.save()
+
+h2. What could be added easily?
+
+scraperwiki.datastore.retrieve()
+scraperwiki.datastore.fetch()
+scraperwiki.metadata.save()
+scraperwiki.metadata.get()
+geocoding with dummy data
+local caching of scraped pages
+
+h2. License
+
+GPLv3 (same as
+ScraperWiki:"https://kforgehosting.com/scraperwiki/trac/browser/LICENSE.txt")
