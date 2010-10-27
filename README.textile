@@ -12,9 +12,7 @@ python setup.py install
 python your_script_name.py
 </pre>
 
-You can also use 'pip install fakerwiki', but this obviously won't build
-out your virtualenv with the standard scraperwiki packages from the
-requirements.txt in the repository.
+You can also use 'pip install fakerwiki', but this obviously won't build out your virtualenv with the standard scraperwiki packages from the requirements.txt in the repository.
 
 h2. What works?
 
