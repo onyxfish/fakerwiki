@@ -1,6 +1,6 @@
 h1. FakerWiki
 
-Fakerwiki is a library for local testing of Python "ScraperWiki":http://http://scraperwiki.com/ scripts.  Mostly it's just a copy of the ScraperWiki library with the database bits removed.
+Fakerwiki is a library for local testing of Python "ScraperWiki":http://scraperwiki.com/ scripts.  Mostly it's just a copy of the ScraperWiki library with the database bits removed.
 
 h2. Usage
 
